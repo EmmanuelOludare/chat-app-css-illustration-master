@@ -17,7 +17,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   
 ### Screenshot
 
-![](design/desktop-preview.jpg)
+![](screenshot.png)
 
 ### Links
 
@@ -35,9 +35,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 ### What I learned
 
 I learnt more about css animations as i used it to create loading interface for the app.I also got more experience concerning css positions.
-
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
