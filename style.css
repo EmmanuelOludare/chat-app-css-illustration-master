@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:bisque;
+}
+content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+.background-top{
+    position: fixed;
+    background-color:hsl(264, 100%, 61%);
+    height:65vh;
+    width:40vw;
+    z-index: -1;
+    border-bottom-right-radius: 35vh;
+    top: 0;
+}
+.background-bottom{
+    position: fixed;
+    background-color:hsl(264, 100%, 61%);
+    height:65vh;
+    width:40vw;
+    z-index: -1; 
+    border-top-left-radius: 35vh;
+    bottom: 0;
+    right: 0;
+    opacity: .05;
+}
+.outer-phone-part{
+    height:595px;
+    width: 300px;
+    border-radius:30px;
+    z-index: 1;
+    background-color:none;
+    border: 10px hsl(0, 0%, 100%) solid;
+    margin-left: 60px;
+    margin-top:50px;
+}
+.speaker-area{
+    padding:0px 78px 0px 78px;
+    position:absolute;
+    margin-top: -5px; 
+}
+.speaker-area>div{
+    background-color:hsl(0, 0%, 100%);
+    height:20px;
+    width:120px;
+    border-radius: 15px;
+}
+.inner-phone-part{
+    height:577px;
+    width: 280px;
+    background-color: beige;
+    border-radius:23px;
+}
+.top{
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    display:flex;
+    color:hsl(0, 0%, 100%) ;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:20px 20px 0px 0px;
+    height:60px;
+    padding-top: 10px;
+}
+.top img{
+    border-radius:50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    width:25px;
+    height:25px;
+}
+.top>.right-part{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+}
+.top>.profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+.profile>p{
+    Font-size: 12px;
+    opacity: .45;
+}
+.bottom{
+    margin-top: 2px;
+    padding: 0px 10px 0px 10px;
+}
+.texts{
+    color:hsl(276, 55%, 52%);
+    background-color: hsl(270, 20%, 96%);
+    width: 140px;
+    font-size: 10px;
+    padding:5px;
+    border-radius:10px;
+    margin: 10px;
+    animation: d 2s ease-in-out;
+}
+.dog-images{
+    display:flex;
+    gap:10px;
+    background:none;
+}
+.dog-images>img{
+    width:35px;
+    height:35px;
+    border-radius:10px;
+}
+.text-choice{
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color: hsl(270, 20%, 96%);
+    display:flex;
+    justify-content: space-around;
+    border-radius:5px;
+}
+.text-choice>span{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2px;
+}
+.text-choice>p{
+    font-size:17px;
+    font-weight:bold;
+}
+.text-choice>span>label{
+    opacity: .75;
+}
+.text-right{
+    float:right;
+}
+.text-left{
+    float:left;
+}
+input{
+    outline-color: hsl(289, 100%, 72%);
+}
+.typing-area{
+    background-color:hsl(270, 20%, 96%);
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
+    padding: 4px 8px 4px 8px;
+    border-radius: 22px;
+}
+.typing-area>i{
+    color: hsl(270, 20%, 96%);
+    border-radius:50%;
+    background-color:hsl(271, 36%, 24%);
+    height:28px;
+    width:28px;
+    padding:6px 7px 7px 10px;
+}
+.typing-area>p{
+    font-size:12px;
+}
+.simple-booking{
+    text-align:center;
+}
+.simple-booking>h1{
+    color:hsl(271, 36%, 24%);
+}
+.simple-booking>p{
+    opacity: .5;
+    font-size:17px;
+    padding:0px 80px 0px 80px;
+    letter-spacing: 2px;
+}
+.attribution{
+     font-size: 11px;
+      text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); }
+
+    @media (min-width:800px){
+        content{
+            flex-direction:row;
+            gap:20px;
+        }
+        .background-top{
+        height:65vh;
+        width:30vw;
+        border-bottom-right-radius: 40vw;
+        border-bottom-left-radius: 40vw;
+        left:0;
+        }
+        .background-bottom{
+        height:65vh;
+        width:30vw;
+        border-top-right-radius: 40vw;
+        border-top-left-radius: 40vw;
+        right:0;
+        bottom:0px;
+        position:fixed;
+        }
+    }   
+@keyframes d {
+    from { opacity:0;
+    }
+    to { opacity:1;
+    }
+}
