@@ -21,8 +21,8 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub/chatappcssillustrationmaster-BJHYb8w75)
+- Live Site URL: [live site URL](https://delightful-figolla-9de3c6.netlify.app/)
 
 ### Built with
 
